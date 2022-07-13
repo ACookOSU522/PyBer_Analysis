@@ -2,7 +2,8 @@
 
 ## Project Overview
 Analysis of data to showcase the relationship between driver, city, and fare for affordability. :red_car:
-###Reviewing PyBer ride-share data to create a DataFrame that highlights the basic fare and driver data by city type.
+
+### Reviewing PyBer ride-share data to create a DataFrame that highlights the basic fare and driver data by city type.
 
 ## Resources
 - Data Source: city_data.csv, ride_data.csv, PyBer_ride_Data.csv
