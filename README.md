@@ -1,37 +1,25 @@
 # PyBer_Analysis
-PyBer Matplotlib
-Deliverable 3: A written report for the PyBer analysis (20 points)
-Deliverable 3 Instructions
-Use your repository README file to write your analysis of how to address any disparities in the ride-sharing data among the city types.
 
-The analysis should contain the following:
-
-Overview of the analysis: Explain the purpose of the new analysis.
+## Project Overview
+Analysis of data to showcase the relationship between driver, city, and fare for affordability. :red_car:
+### Reviewing PyBer ride-share data to create a DataFrame that highlights the basic fare and driver data by city type.
 
 ## Resources
-- Data Source: [insert].csv, [insert].csv
+- Data Source: city_data.csv, ride_data.csv, PyBer_ride_Data.csv
 - Software: Anaconda 4.13.10, Pandas 1.3.5, Matplotlib
 
-Results: Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
-Summary: Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+## Results: :blue_car: 
+The major differences between ride-sharing in each city type is the higher the availabilty of drivers to provide rides equls the lower cost per ride, However it also makes the pay for each driver less due to competition.
 
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
+* Rural areas provide the lowest total rides at 125 rides, spread among 78 drivers.  The total fares earned is $4,327.93, with the average ride fare at $32.62, and average fare per driver is $55.49.
+* Suburban areas provide a mid-range total rides at 625 rides, spread among 490 drivers.  The total fares earned is $19,356.33, with the average ride fare at $30.97, and average fare per driver is $39.50.
+* Urban areas provide the highest number of total rides at 1,625 rides, with 2,405 drivers available this is stiff competition for drivers.  The total fares earned is $39,854.38, with the average ride fare at $24.53, and average fare per driver is $16.57.
 
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
 
-Overview of the analysis:
+## Summary: 
+Based on the data analysis results from January 1, 2019 to April 29, 2019, I recommend the below items for consideration for optimal business performance in each city type.
 
-The purpose of the new analysis is well defined. (3 pt)
-Results:
-
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. (7 pt)
-Summary:
-
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)
+* Staffing increases in all 3 city types in mid-February to meet the demand for higher ride requests,possibly due to springtime soggy-weather:umbrella:; results indicate the cost per driver will balance out with a higher average fare/driver ratio.
+* Urban areas see increasingly cyclical peaks and valleys along a relatively steady line after the mid_February peak, but there is a leveling out in April before a noted decline in rides.
+* Additional data review indicates a very sharp drop in rides in all 3 city types in May; preliminary guess on decline is due to increased pleasant :sunny: weather and more riders prefer other travel methods such as walking.
